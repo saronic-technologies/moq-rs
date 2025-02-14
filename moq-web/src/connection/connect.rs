@@ -98,13 +98,10 @@ impl Connect {
 				// the ssl cert and the actual underlying URL.
 				let mut fingerprint = addr.clone();
 				fingerprint.set_path("fingerprint");
-				tracing::error!("{fingerprint}");
 
 				let resp = gloo_net::http::Request::get(fingerprint.as_str()).send().await?;
-				tracing::error!("{:?}", resp);
 
 				let fp_res = resp.json::<FingerprintResponse>().await?;
-				tracing::info!("{:?}", fp_res);
 
 				let fingerprint = hex::decode(fp_res.fingerprint.trim()).map_err(|_| Error::InvalidFingerprint)?;
 

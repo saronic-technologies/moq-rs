@@ -1,0 +1,3 @@
+https://moq-relay.red5.net:4433/moq connected via WebTransport
+https://moq-relay.red5.net:4433/moq negotiated ALPN: moqt-22
+error: timed out waiting for data

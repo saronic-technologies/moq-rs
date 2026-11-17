@@ -1,0 +1,5 @@
+https://lminiero.it:9000/ connected via WebTransport
+https://lminiero.it:9000/ negotiated ALPN: moqt-22
+connected version=moq-transport-22
+subscribe_namespace written: requestId=0
+error: timed out waiting for data

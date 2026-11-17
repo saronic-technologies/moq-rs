@@ -1,0 +1,1323 @@
+{
+  "generated": "2026-11-17T18:04:11Z",
+  "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/44142192771",
+  "registry": "https://raw.githubusercontent.com/englishm/moq-interop-runner/main/implementations.json",
+  "pairs": [
+    "rust → rust",
+    "rust → js-web",
+    "rust → js-bun",
+    "js-web → rust",
+    "js-web → js-web",
+    "js-web → js-bun"
+  ],
+  "endpoints": [
+    {
+      "key": "aiomoqt-relay",
+      "name": "aiomoqt (relay)",
+      "url": "moqt://aiomoqt-relay.marzresearch.net:4443",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "moqt_aiomoqt-relay.marzresearch.net_4443/rust-rust.log",
+          "pub_log": "moqt_aiomoqt-relay.marzresearch.net_4443/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "aiomoqt-relay",
+      "name": "aiomoqt (relay)",
+      "url": "https://aiomoqt-relay.marzresearch.net:4443/",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/rust-rust.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/rust-js-web.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/rust-js-bun.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/js-web-rust.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/js-web-js-web.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_aiomoqt-relay.marzresearch.net_4443/js-web-js-bun.log",
+          "pub_log": "https_aiomoqt-relay.marzresearch.net_4443/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "imquic",
+      "name": "imquic",
+      "url": "https://lminiero.it:9000",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed: session terminated err=transport: connection error: closed",
+          "sub_log": "https_lminiero.it_9000/rust-rust.log",
+          "pub_log": "https_lminiero.it_9000/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_lminiero.it_9000/rust-js-web.log",
+          "pub_log": "https_lminiero.it_9000/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed: error: timed out waiting for data",
+          "sub_log": "https_lminiero.it_9000/rust-js-bun.log",
+          "pub_log": "https_lminiero.it_9000/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_lminiero.it_9000/js-web-rust.log",
+          "pub_log": "https_lminiero.it_9000/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_lminiero.it_9000/js-web-js-web.log",
+          "pub_log": "https_lminiero.it_9000/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_lminiero.it_9000/js-web-js-bun.log",
+          "pub_log": "https_lminiero.it_9000/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "imquic",
+      "name": "imquic",
+      "url": "moqt://lminiero.it:9000",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "moqt_lminiero.it_9000/rust-rust.log",
+          "pub_log": "moqt_lminiero.it_9000/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "libquicr",
+      "name": "libquicr",
+      "url": "https://us-west-2.relay.quicr.org:33437/relay",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-18"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/rust-rust.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/rust-js-web.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/rust-js-bun.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/js-web-rust.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/js-web-js-web.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_us-west-2.relay.quicr.org_33437_relay/js-web-js-bun.log",
+          "pub_log": "https_us-west-2.relay.quicr.org_33437_relay/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "libquicr",
+      "name": "libquicr",
+      "url": "moqt://us-west-2.relay.quicr.org:33437",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-18"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "moqt_us-west-2.relay.quicr.org_33437/rust-rust.log",
+          "pub_log": "moqt_us-west-2.relay.quicr.org_33437/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-dev-rs",
+      "name": "moq (moq-dev)",
+      "url": "moqt://cdn.moq.dev:443/anon",
+      "transport": "QUIC",
+      "required": true,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "moqt_cdn.moq.dev_443_anon/rust-rust.log",
+          "pub_log": "moqt_cdn.moq.dev_443_anon/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-dev-rs",
+      "name": "moq (moq-dev)",
+      "url": "https://cdn.moq.dev/anon",
+      "transport": "WebTransport",
+      "required": true,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/rust-rust.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/rust-js-web.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/rust-js-bun.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/js-web-rust.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/js-web-js-web.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_cdn.moq.dev_anon/js-web-js-bun.log",
+          "pub_log": "https_cdn.moq.dev_anon/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moq-dev-rs",
+      "name": "moq (moq-dev)",
+      "url": "wss://cdn.moq.dev/anon",
+      "transport": "WebSocket",
+      "required": true,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "wss_cdn.moq.dev_anon/rust-rust.log",
+          "pub_log": "wss_cdn.moq.dev_anon/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-rs-draft-14",
+      "name": "moq-rs (draft-14)",
+      "url": "moqt://draft-14.cloudflare.mediaoverquic.com:443",
+      "transport": "QUIC",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-14"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-14",
+          "sub_version": "moq-transport-14",
+          "reason": "connected, nothing subscribed: session terminated err=transport: session error: connection error: closed",
+          "sub_log": "moqt_draft-14.cloudflare.mediaoverquic.com_443/rust-rust.log",
+          "pub_log": "moqt_draft-14.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-rs-draft-14",
+      "name": "moq-rs (draft-14)",
+      "url": "https://draft-14.cloudflare.mediaoverquic.com:443/moq",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-14"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-14",
+          "sub_version": "moq-transport-14",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/rust-rust.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-14",
+          "sub_version": "",
+          "reason": "not connected",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/rust-js-web.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-14",
+          "sub_version": "moq-transport-14",
+          "reason": "connected, nothing subscribed: error: timed out waiting for data",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/rust-js-bun.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "moq-transport-14",
+          "reason": "connected, nothing subscribed: session terminated err=transport: session error: connection error: closed",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/js-web-rust.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/js-web-js-web.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "moq-transport-14",
+          "reason": "connected, nothing subscribed: error: timed out waiting for data",
+          "sub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/js-web-js-bun.log",
+          "pub_log": "https_draft-14.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moq-rs-draft-18",
+      "name": "moq-rs (draft-18)",
+      "url": "moqt://draft-18-interop.cloudflare.mediaoverquic.com:443",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-18"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "moqt_draft-18-interop.cloudflare.mediaoverquic.com_443/rust-rust.log",
+          "pub_log": "moqt_draft-18-interop.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-rs-draft-18",
+      "name": "moq-rs (draft-18)",
+      "url": "https://draft-18-interop.cloudflare.mediaoverquic.com:443/moq",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-18"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/rust-rust.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/rust-js-web.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/rust-js-bun.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/js-web-rust.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/js-web-js-web.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-18",
+          "sub_version": "moq-transport-18",
+          "reason": "",
+          "sub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/js-web-js-bun.log",
+          "pub_log": "https_draft-18-interop.cloudflare.mediaoverquic.com_443_moq/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moq-ng",
+      "name": "moq-ng (Cloudflare, experimental)",
+      "url": "moqt://moq-ng.cloudflare.mediaoverquic.com:443",
+      "transport": "QUIC",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE for 0.avc3, no SUBSCRIBE_OK logged, no objects: track failed; ending the reader track=\"0.avc3\" error=Remote(18)",
+          "sub_log": "moqt_moq-ng.cloudflare.mediaoverquic.com_443/rust-rust.log",
+          "pub_log": "moqt_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moq-ng",
+      "name": "moq-ng (Cloudflare, experimental)",
+      "url": "https://moq-ng.cloudflare.mediaoverquic.com:443",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE for 0.avc3, no SUBSCRIBE_OK logged, no objects: track failed; ending the reader track=\"0.avc3\" error=Remote(18)",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/rust-rust.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/rust-js-web.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/rust-js-bun.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/js-web-rust.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/js-web-js-web.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/js-web-js-bun.log",
+          "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moqtail",
+      "name": "moqtail",
+      "url": "https://relay.moqtail.dev",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_relay.moqtail.dev/rust-rust.log",
+          "pub_log": "https_relay.moqtail.dev/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_relay.moqtail.dev/rust-js-web.log",
+          "pub_log": "https_relay.moqtail.dev/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_relay.moqtail.dev/rust-js-bun.log",
+          "pub_log": "https_relay.moqtail.dev/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE for catalog.json, no SUBSCRIBE_OK logged, no objects: session terminated err=transport: connection error: closed",
+          "sub_log": "https_relay.moqtail.dev/js-web-rust.log",
+          "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE_OK for catalog.json, no objects",
+          "sub_log": "https_relay.moqtail.dev/js-web-js-web.log",
+          "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE_OK for catalog.json, no objects: error: timed out waiting for data",
+          "sub_log": "https_relay.moqtail.dev/js-web-js-bun.log",
+          "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moqt-nr-draft-23",
+      "name": "moqt-nokiaresearch (draft-23)",
+      "url": "moqt://moqt.nokiaresearch.com:8443/moq",
+      "transport": "QUIC",
+      "required": false,
+      "ok": false,
+      "versions": [],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: QUIC connection failed err=aborted by peer: the cryptographic handshake failed: error 120",
+          "sub_log": "moqt_moqt.nokiaresearch.com_8443_moq/rust-rust.log",
+          "pub_log": "moqt_moqt.nokiaresearch.com_8443_moq/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moqt-nr-draft-23",
+      "name": "moqt-nokiaresearch (draft-23)",
+      "url": "https://moqt.nokiaresearch.com:8443/moq",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [],
+      "cells": {
+        "rust → rust": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: QUIC connection failed err=failed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/rust-rust.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: Failed to establish a connection to https://moqt.nokiaresearch.com:8443/moq: net::ERR_QUIC_PROTOCOL_ERROR.",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/rust-js-web.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: error: failed to exchange h3 connect: protocol error: expected 200, got: Some(500)",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/rust-js-bun.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: QUIC connection failed err=failed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/js-web-rust.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: Failed to establish a connection to https://moqt.nokiaresearch.com:8443/moq: net::ERR_QUIC_PROTOCOL_ERROR.",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/js-web-js-web.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "FAIL",
+          "pub_version": "",
+          "sub_version": "",
+          "reason": "not connected: error: failed to exchange h3 connect: protocol error: expected 200, got: Some(500)",
+          "sub_log": "https_moqt.nokiaresearch.com_8443_moq/js-web-js-bun.log",
+          "pub_log": "https_moqt.nokiaresearch.com_8443_moq/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moqt-nr",
+      "name": "moqt-nokiaresearch",
+      "url": "moqt://moqt.nokiaresearch.com:4443/moq",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "moqt_moqt.nokiaresearch.com_4443_moq/rust-rust.log",
+          "pub_log": "moqt_moqt.nokiaresearch.com_4443_moq/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moqt-nr",
+      "name": "moqt-nokiaresearch",
+      "url": "https://moqt.nokiaresearch.com:4443/moq",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/rust-rust.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/rust-js-web.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/rust-js-bun.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/js-web-rust.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/js-web-js-web.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moqt.nokiaresearch.com_4443_moq/js-web-js-bun.log",
+          "pub_log": "https_moqt.nokiaresearch.com_4443_moq/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moqx",
+      "name": "moqx",
+      "url": "https://moqx-main.ci.openmoq.org:4433/moq-relay",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/rust-rust.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/rust-js-web.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/rust-js-bun.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/js-web-rust.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/js-web-js-web.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/js-web-js-bun.log",
+          "pub_log": "https_moqx-main.ci.openmoq.org_4433_moq-relay/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moqx",
+      "name": "moqx",
+      "url": "moqt://moqx-main.ci.openmoq.org:4433",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "moqt_moqx-main.ci.openmoq.org_4433/rust-rust.log",
+          "pub_log": "moqt_moqx-main.ci.openmoq.org_4433/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "moxygen",
+      "name": "moxygen",
+      "url": "https://fb.mvfst.net:9448/moq-relay",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/rust-rust.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/rust-js-web.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/rust-js-bun.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/js-web-rust.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/js-web-js-web.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_fb.mvfst.net_9448_moq-relay/js-web-js-bun.log",
+          "pub_log": "https_fb.mvfst.net_9448_moq-relay/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "moxygen",
+      "name": "moxygen",
+      "url": "moqt://fb.mvfst.net:9448/moq-relay",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "moqt_fb.mvfst.net_9448_moq-relay/rust-rust.log",
+          "pub_log": "moqt_fb.mvfst.net_9448_moq-relay/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "quiche-moq",
+      "name": "quiche-moq",
+      "url": "https://quichemoq.dev:443",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_quichemoq.dev_443/rust-rust.log",
+          "pub_log": "https_quichemoq.dev_443/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_quichemoq.dev_443/rust-js-web.log",
+          "pub_log": "https_quichemoq.dev_443/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_quichemoq.dev_443/rust-js-bun.log",
+          "pub_log": "https_quichemoq.dev_443/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "SUBSCRIBE for catalog.json, no SUBSCRIBE_OK logged, no objects: goaway error err=transport: invalid RESET_STREAM: 271",
+          "sub_log": "https_quichemoq.dev_443/js-web-rust.log",
+          "pub_log": "https_quichemoq.dev_443/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_quichemoq.dev_443/js-web-js-web.log",
+          "pub_log": "https_quichemoq.dev_443/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_quichemoq.dev_443/js-web-js-bun.log",
+          "pub_log": "https_quichemoq.dev_443/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "red5-moq-relay",
+      "name": "red5-moq-relay",
+      "url": "moqt://moq-relay.red5.net:4433",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "moqt_moq-relay.red5.net_4433/rust-rust.log",
+          "pub_log": "moqt_moq-relay.red5.net_4433/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "red5-moq-relay",
+      "name": "red5-moq-relay",
+      "url": "https://moq-relay.red5.net:4433/moq",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-22"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/rust-rust.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/rust-js-web.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "",
+          "reason": "not connected: error: timed out waiting for data",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/rust-js-bun.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/js-web-rust.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "moq-transport-22",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/js-web-js-web.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-22",
+          "sub_version": "",
+          "reason": "not connected: error: timed out waiting for data",
+          "sub_log": "https_moq-relay.red5.net_4433_moq/js-web-js-bun.log",
+          "pub_log": "https_moq-relay.red5.net_4433_moq/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "stitcher-moq",
+      "name": "stitcher-moq (moq-dev deployment)",
+      "url": "https://34-72-6-160.sslip.io:443/moq-test",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/rust-rust.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/rust-js-web.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/rust-js-bun.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/js-web-rust.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/js-web-js-web.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "https_34-72-6-160.sslip.io_443_moq-test/js-web-js-bun.log",
+          "pub_log": "https_34-72-6-160.sslip.io_443_moq-test/pub-js-web.log"
+        }
+      }
+    },
+    {
+      "key": "stitcher-moq",
+      "name": "stitcher-moq (moq-dev deployment)",
+      "url": "wss://34-72-6-160.sslip.io:443/moq-test",
+      "transport": "WebSocket",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "wss_34-72-6-160.sslip.io_443_moq-test/rust-rust.log",
+          "pub_log": "wss_34-72-6-160.sslip.io_443_moq-test/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "stitcher-moq",
+      "name": "stitcher-moq (moq-dev deployment)",
+      "url": "moqt://34-72-6-160.sslip.io:443/moq-test",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-lite-06"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-lite-06",
+          "sub_version": "moq-lite-06",
+          "reason": "",
+          "sub_log": "moqt_34-72-6-160.sslip.io_443_moq-test/rust-rust.log",
+          "pub_log": "moqt_34-72-6-160.sslip.io_443_moq-test/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "oracle-relay",
+      "name": "Oracle Relay",
+      "url": "moqt://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443",
+      "transport": "QUIC",
+      "required": false,
+      "ok": true,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "moqt_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/rust-rust.log",
+          "pub_log": "moqt_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-rust.log"
+        }
+      }
+    },
+    {
+      "key": "oracle-relay",
+      "name": "Oracle Relay",
+      "url": "https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443",
+      "transport": "WebTransport",
+      "required": false,
+      "ok": false,
+      "versions": [
+        "moq-transport-16"
+      ],
+      "cells": {
+        "rust → rust": {
+          "status": "PASS",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/rust-rust.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-rust.log"
+        },
+        "rust → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/rust-js-web.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-rust.log"
+        },
+        "rust → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "connected, nothing subscribed: error: timed out waiting for data",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/rust-js-bun.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-rust.log"
+        },
+        "js-web → rust": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "connected, nothing subscribed: session terminated err=transport: session error: connection error: closed",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/js-web-rust.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-js-web.log"
+        },
+        "js-web → js-web": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "connected, nothing subscribed",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/js-web-js-web.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-js-web.log"
+        },
+        "js-web → js-bun": {
+          "status": "FAIL",
+          "pub_version": "moq-transport-16",
+          "sub_version": "moq-transport-16",
+          "reason": "connected, nothing subscribed: error: timed out waiting for data",
+          "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/js-web-js-bun.log",
+          "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443/pub-js-web.log"
+        }
+      }
+    }
+  ]
+}

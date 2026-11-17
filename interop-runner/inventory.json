@@ -1,0 +1,212 @@
+[
+  {
+    "implementation": "aiomoqt",
+    "role": "client",
+    "image": "ghcr.io/gmarzot/aiomoqt:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "aiomoqt-relay",
+    "role": "relay",
+    "image": "aiomoqt-interop-relay:latest",
+    "status": "not run: local build only"
+  },
+  {
+    "implementation": "imquic",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-imquic-moq-relay:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "imquic",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-imquic-moq-interop-test:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-dev-js",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-dev-js-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-dev-rs",
+    "role": "relay",
+    "image": "moq-interop-relay:local",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-dev-rs",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-dev-rs-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-go",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-go-relay:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-go",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-go-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-mbt",
+    "role": "client",
+    "image": "ghcr.io/ojii3/moq-mbt-interop-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-relay-ietf:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-test-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs-draft-14",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-relay-ietf-draft-14:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs-draft-14",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-test-client-draft-14:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs-draft-18",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-relay-ietf-draft-18:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-rs-draft-18",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-test-client-draft-18:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moqlivemock",
+    "role": "relay",
+    "image": "ghcr.io/eyevinn/mlmrel:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moqlivemock",
+    "role": "client",
+    "image": "ghcr.io/eyevinn/mlmtest:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moqx",
+    "role": "relay",
+    "image": "moqx-interop:latest",
+    "status": "not run: local build only"
+  },
+  {
+    "implementation": "moqx",
+    "role": "client",
+    "image": "ghcr.io/openmoq/moqx-interop-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moqxr",
+    "role": "client",
+    "image": "moqxr-interop-client:latest",
+    "status": "not run: local build only"
+  },
+  {
+    "implementation": "moxygen",
+    "role": "relay",
+    "image": "moxygen-interop:latest",
+    "status": "not run: local build only"
+  },
+  {
+    "implementation": "moxygen",
+    "role": "client",
+    "image": "ghcr.io/facebookexperimental/moxygen-interop-client:latest-amd64",
+    "status": "selected"
+  },
+  {
+    "implementation": "quiche-moq",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-quiche-moq-relay:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "red5-moq-relay",
+    "role": "relay",
+    "image": "red5-moq-relay-interop:latest",
+    "status": "not run: local build only"
+  },
+  {
+    "implementation": "stitcher-moq",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-stitcher-moq-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "stitcher-moq-media",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-stitcher-moq-media-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-net-media-ts",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moq-net-media-ts-client:latest",
+    "status": "not run: image unavailable"
+  },
+  {
+    "implementation": "xquic-client",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-xquic-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "xquic-relay",
+    "role": "relay",
+    "image": "ghcr.io/englishm/moq-interop-runner-xquic-relay:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq5",
+    "role": "client",
+    "image": "ghcr.io/openmoq/moq5-interop-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moqtopus",
+    "role": "client",
+    "image": "ghcr.io/englishm/moq-interop-runner-moqtopus-interop-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "moq-playa",
+    "role": "client",
+    "image": "ghcr.io/openmoq/moq-playa-interop-client:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "quic-zig",
+    "role": "relay",
+    "image": "ghcr.io/endel/quic-zig-moq-relay:latest",
+    "status": "selected"
+  },
+  {
+    "implementation": "quic-zig",
+    "role": "client",
+    "image": "ghcr.io/endel/quic-zig-moq-client:latest",
+    "status": "selected"
+  }
+]

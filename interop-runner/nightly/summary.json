@@ -1,0 +1,403 @@
+{
+  "runs": [
+    {
+      "client": "moq-mbt",
+      "relay": "moq-dev-rs",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-rs-draft-18",
+      "relay": "moq-dev-rs",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq5",
+      "relay": "moq-dev-rs",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moqtopus",
+      "relay": "moq-dev-rs",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-playa",
+      "relay": "moq-dev-rs",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "aiomoqt",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": [
+        "draft-22"
+      ]
+    },
+    {
+      "client": "imquic",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-go",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moqlivemock",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moqx",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": [
+        "draft-22"
+      ]
+    },
+    {
+      "client": "moxygen",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": [
+        "draft-18"
+      ]
+    },
+    {
+      "client": "stitcher-moq",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "stitcher-moq-media",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": [
+        "draft-22"
+      ]
+    },
+    {
+      "client": "xquic-client",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": [
+        "draft-22"
+      ]
+    },
+    {
+      "client": "quic-zig",
+      "relay": "moq-dev-rs",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "moq-interop-relay:local",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": [
+        "draft-22"
+      ]
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "moq-rs-draft-18",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-moq-relay-ietf-draft-18:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "moq-rs-draft-18",
+      "version": "draft-18",
+      "classification": "at",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-moq-relay-ietf-draft-18:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "imquic",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-imquic-moq-relay:latest",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "moq-go",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-moq-go-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "moqlivemock",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/eyevinn/mlmrel:latest",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "quiche-moq",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-quiche-moq-relay:latest",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "xquic-relay",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-quic",
+      "target": "ghcr.io/englishm/moq-interop-runner-xquic-relay:latest",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "xquic-relay",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-webtransport",
+      "target": "ghcr.io/englishm/moq-interop-runner-xquic-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "quic-zig",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-quic",
+      "target": "ghcr.io/endel/quic-zig-moq-relay:latest",
+      "status": "fail",
+      "exit_code": 2,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-js",
+      "relay": "quic-zig",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-webtransport",
+      "target": "ghcr.io/endel/quic-zig-moq-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "imquic",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-imquic-moq-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "moq-go",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-moq-go-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "moqlivemock",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/eyevinn/mlmrel:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "quiche-moq",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker",
+      "target": "ghcr.io/englishm/moq-interop-runner-quiche-moq-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "xquic-relay",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-quic",
+      "target": "ghcr.io/englishm/moq-interop-runner-xquic-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "xquic-relay",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-webtransport",
+      "target": "ghcr.io/englishm/moq-interop-runner-xquic-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "quic-zig",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-quic",
+      "target": "ghcr.io/endel/quic-zig-moq-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    },
+    {
+      "client": "moq-dev-rs",
+      "relay": "quic-zig",
+      "version": "draft-22",
+      "classification": "ahead",
+      "mode": "docker-webtransport",
+      "target": "ghcr.io/endel/quic-zig-moq-relay:latest",
+      "status": "pass",
+      "exit_code": 0,
+      "negotiated_versions": []
+    }
+  ],
+  "target_version": "draft-18",
+  "timestamp": "2026-11-17T18:12:05Z"
+}

@@ -2,16 +2,18 @@ https://cdn.moq.dev/anon connected via WebTransport
 https://cdn.moq.dev/anon negotiated ALPN: moq-lite-06
 announced: prefix=
 connected version=moq-lite-06
+announced: broadcast=desk-9df687221259805b active=true
+announced: broadcast=moqdesk-937e165c active=true
 announced: broadcast=sp-blume-town-test active=true
 announce: prefix=
-announced: broadcast=smoke-js-web-4073-3995.hang active=true
-subscribe start: id=0 broadcast=smoke-js-web-4073-3995.hang track=catalog.json
-subscribe ok: id=0 broadcast=smoke-js-web-4073-3995.hang track=catalog.json
-subscribe start: id=1 broadcast=smoke-js-web-4073-3995.hang track=video
-subscribe ok: id=1 broadcast=smoke-js-web-4073-3995.hang track=video
-received 5846 bytes from smoke-js-web-4073-3995.hang
-subscribe close: id=0 broadcast=smoke-js-web-4073-3995.hang track=catalog.json
-subscribe close: id=1 broadcast=smoke-js-web-4073-3995.hang track=video
+announced: broadcast=smoke-js-web-4053-2698.hang active=true
+subscribe start: id=0 broadcast=smoke-js-web-4053-2698.hang track=catalog.json
+subscribe ok: id=0 broadcast=smoke-js-web-4053-2698.hang track=catalog.json
+subscribe start: id=1 broadcast=smoke-js-web-4053-2698.hang track=video
+subscribe ok: id=1 broadcast=smoke-js-web-4053-2698.hang track=video
+received 6755 bytes from smoke-js-web-4053-2698.hang
+subscribe close: id=0 broadcast=smoke-js-web-4053-2698.hang track=catalog.json
+subscribe close: id=1 broadcast=smoke-js-web-4053-2698.hang track=video
 broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
   source: "session",
   streamErrorCode: null,

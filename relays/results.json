@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T08:13:02Z",
-  "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/44263879087",
+  "generated": "2026-11-19T08:13:08Z",
+  "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/44484580106",
   "registry": "https://raw.githubusercontent.com/englishm/moq-interop-runner/main/implementations.json",
   "pairs": [
     "rust → rust",
@@ -573,10 +573,10 @@
           "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
         },
         "rust → js-bun": {
-          "status": "FAIL",
+          "status": "PASS",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "SUBSCRIBE_OK for catalog.json, no objects: subscribe error: id=2 broadcast=smoke-rust-4053-11986.hang track=catalog.json error=publish done: status=0x12 reason=malformed track: a copy of an object differs",
+          "reason": "",
           "sub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/rust-js-bun.log",
           "pub_log": "https_moq-ng.cloudflare.mediaoverquic.com_443/pub-rust.log"
         },
@@ -645,7 +645,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "SUBSCRIBE for catalog.json, no SUBSCRIBE_OK logged, no objects: session terminated err=transport: connection error: closed",
+          "reason": "SUBSCRIBE for catalog.json, no SUBSCRIBE_OK logged, no objects",
           "sub_log": "https_relay.moqtail.dev/js-web-rust.log",
           "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
         },
@@ -653,7 +653,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "SUBSCRIBE_OK for catalog.json, no objects: error processing bidi stream Stream: remote error: 0",
+          "reason": "SUBSCRIBE_OK for catalog.json, no objects",
           "sub_log": "https_relay.moqtail.dev/js-web-js-web.log",
           "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
         },
@@ -661,7 +661,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "SUBSCRIBE_OK for catalog.json, no objects: error processing bidi stream WebTransportError {",
+          "reason": "SUBSCRIBE_OK for catalog.json, no objects: error: timed out waiting for data",
           "sub_log": "https_relay.moqtail.dev/js-web-js-bun.log",
           "pub_log": "https_relay.moqtail.dev/pub-js-web.log"
         }

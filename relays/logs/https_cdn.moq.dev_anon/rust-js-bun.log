@@ -2,14 +2,51 @@ https://cdn.moq.dev/anon connected via WebTransport
 https://cdn.moq.dev/anon negotiated ALPN: moq-lite-06
 announced: prefix=
 connected version=moq-lite-06
-announced: broadcast=lcb-7020742-ef62.hang active=true
+announced: broadcast=lcb-7037049-c6f3.hang active=true
+announced: broadcast=sc-0a0f2db1e3c310bc919a50684269ddee active=true
+announced: broadcast=sc-41561aadc99e99b0a8001607e0f1d042 active=true
+announced: broadcast=sc-ddd06bcd491de626e630bb1f179d097a active=true
+announced: broadcast=smoke-rust-4030-27612.hang active=true
+subscribe start: id=0 broadcast=smoke-rust-4030-27612.hang track=catalog.json
 announced: broadcast=sp-blume-town-test active=true
+announced: broadcast=vs-1025940bc3faa473262a7049e58b13ec active=true
 announce: prefix=
-announced: broadcast=smoke-rust-4255-28257.hang active=true
-subscribe start: id=0 broadcast=smoke-rust-4255-28257.hang track=catalog.json
-subscribe ok: id=0 broadcast=smoke-rust-4255-28257.hang track=catalog.json
-subscribe start: id=1 broadcast=smoke-rust-4255-28257.hang track=0.avc3
-subscribe ok: id=1 broadcast=smoke-rust-4255-28257.hang track=0.avc3
-received 6709 bytes from smoke-rust-4255-28257.hang
-subscribe close: id=0 broadcast=smoke-rust-4255-28257.hang track=catalog.json
-subscribe close: id=1 broadcast=smoke-rust-4255-28257.hang track=0.avc3
+subscribe ok: id=0 broadcast=smoke-rust-4030-27612.hang track=catalog.json
+subscribe start: id=1 broadcast=smoke-rust-4030-27612.hang track=0.avc3
+subscribe ok: id=1 broadcast=smoke-rust-4030-27612.hang track=0.avc3
+received 6709 bytes from smoke-rust-4030-27612.hang
+subscribe close: id=0 broadcast=smoke-rust-4030-27612.hang track=catalog.json
+subscribe close: id=1 broadcast=smoke-rust-4030-27612.hang track=0.avc3
+broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
+  source: "session",
+  streamErrorCode: null,
+  code: 0,
+  name: "WebTransportError",
+  message: "connection error: closed",
+  INDEX_SIZE_ERR: 1,
+  DOMSTRING_SIZE_ERR: 2,
+  HIERARCHY_REQUEST_ERR: 3,
+  WRONG_DOCUMENT_ERR: 4,
+  INVALID_CHARACTER_ERR: 5,
+  NO_DATA_ALLOWED_ERR: 6,
+  NO_MODIFICATION_ALLOWED_ERR: 7,
+  NOT_FOUND_ERR: 8,
+  NOT_SUPPORTED_ERR: 9,
+  INUSE_ATTRIBUTE_ERR: 10,
+  INVALID_STATE_ERR: 11,
+  SYNTAX_ERR: 12,
+  INVALID_MODIFICATION_ERR: 13,
+  NAMESPACE_ERR: 14,
+  INVALID_ACCESS_ERR: 15,
+  VALIDATION_ERR: 16,
+  TYPE_MISMATCH_ERR: 17,
+  SECURITY_ERR: 18,
+  NETWORK_ERR: 19,
+  ABORT_ERR: 20,
+  URL_MISMATCH_ERR: 21,
+  QUOTA_EXCEEDED_ERR: 22,
+  TIMEOUT_ERR: 23,
+  INVALID_NODE_TYPE_ERR: 24,
+  DATA_CLONE_ERR: 25,
+  toString: [Function: toString],
+}

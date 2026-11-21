@@ -1,17 +1,17 @@
 [page] negotiated protocol: moq-lite-06
 [page] announced: prefix=
 [page] announce: prefix=
-[page] announced: broadcast=lcb-7037049-c6f3.hang active=true
-[page] announced: broadcast=sc-0a0f2db1e3c310bc919a50684269ddee active=true
-[page] announced: broadcast=sc-41561aadc99e99b0a8001607e0f1d042 active=true
-[page] announced: broadcast=sc-ddd06bcd491de626e630bb1f179d097a active=true
+[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/camera.hang active=true
+[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/screen.hang active=true
+[page] announced: broadcast=smoke-js-web-4042-8995.hang active=true
+[page] subscribe start: id=0 broadcast=smoke-js-web-4042-8995.hang track=catalog.json
 [page] announced: broadcast=sp-blume-town-test active=true
-[page] announced: broadcast=vs-1025940bc3faa473262a7049e58b13ec active=true
-[page] announced: broadcast=smoke-js-web-4030-24100.hang active=true
-[page] subscribe start: id=0 broadcast=smoke-js-web-4030-24100.hang track=catalog.json
-[page] subscribe ok: id=0 broadcast=smoke-js-web-4030-24100.hang track=catalog.json
-[page] received catalog hang smoke-js-web-4030-24100.hang {video: Object, clock: Object}
-[page] subscribe start: id=1 broadcast=smoke-js-web-4030-24100.hang track=video
-[page] subscribe ok: id=1 broadcast=smoke-js-web-4030-24100.hang track=video
-[page] subscribe update: id=1 broadcast=smoke-js-web-4030-24100.hang track=video
-decoded 3 frames from smoke-js-web-4030-24100.hang (vite)
+[page] announced: broadcast=vs-3cd812d76f648e23b7ccb470e54b5b83 active=true
+[page] subscribe ok: id=0 broadcast=smoke-js-web-4042-8995.hang track=catalog.json
+[page] received catalog hang smoke-js-web-4042-8995.hang {video: Object, clock: Object}
+[page] subscribe start: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
+[page] subscribe ok: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
+[page] subscribe update: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
+[page] received catalog hang smoke-js-web-4042-8995.hang {video: Object, clock: Object}
+[page] subscribe update: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
+decoded 4 frames from smoke-js-web-4042-8995.hang (vite)

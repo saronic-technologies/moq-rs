@@ -1,2 +1,3 @@
-[page] negotiated protocol: moqt-16
-decoded 0 frames from smoke-rust-4030-3149.hang (vite)
+[page] negotiated protocol: moqt-22
+[page] subscribe_namespace written: requestId=0
+decoded 0 frames from smoke-rust-4042-11525.hang (vite)

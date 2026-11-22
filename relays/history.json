@@ -1,7 +1,7 @@
 [
   {
-    "generated": "2026-11-21T08:12:41Z",
-    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/44883126038",
+    "generated": "2026-11-22T08:12:37Z",
+    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45001073306",
     "endpoints": {
       "moqt://aiomoqt-relay.marzresearch.net:4443": {
         "ok": true,
@@ -120,7 +120,7 @@
         "versions": [
           "moq-transport-22"
         ],
-        "passed": 4,
+        "passed": 5,
         "total": 6
       },
       "https://relay.moqtail.dev": {

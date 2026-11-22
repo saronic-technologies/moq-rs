@@ -2,19 +2,17 @@ https://cdn.moq.dev/anon connected via WebTransport
 https://cdn.moq.dev/anon negotiated ALPN: moq-lite-06
 announced: prefix=
 connected version=moq-lite-06
-announced: broadcast=sightline/fable-amber-76/yoyo-4e73/camera.hang active=true
-announced: broadcast=sightline/fable-amber-76/yoyo-4e73/screen.hang active=true
-announced: broadcast=smoke-rust-4042-28531.hang active=true
-subscribe start: id=0 broadcast=smoke-rust-4042-28531.hang track=catalog.json
+announced: broadcast=smoke-rust-4218-6572.hang active=true
+subscribe start: id=0 broadcast=smoke-rust-4218-6572.hang track=catalog.json
 announced: broadcast=sp-blume-town-test active=true
-announced: broadcast=vs-3cd812d76f648e23b7ccb470e54b5b83 active=true
+announced: broadcast=vs-58ca6cf338a7e612fa9e1972961928fa active=true
 announce: prefix=
-subscribe ok: id=0 broadcast=smoke-rust-4042-28531.hang track=catalog.json
-subscribe start: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
-subscribe ok: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
-received 6709 bytes from smoke-rust-4042-28531.hang
-subscribe close: id=0 broadcast=smoke-rust-4042-28531.hang track=catalog.json
-subscribe close: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
+subscribe ok: id=0 broadcast=smoke-rust-4218-6572.hang track=catalog.json
+subscribe start: id=1 broadcast=smoke-rust-4218-6572.hang track=0.avc3
+subscribe ok: id=1 broadcast=smoke-rust-4218-6572.hang track=0.avc3
+received 6709 bytes from smoke-rust-4218-6572.hang
+subscribe close: id=0 broadcast=smoke-rust-4218-6572.hang track=catalog.json
+subscribe close: id=1 broadcast=smoke-rust-4218-6572.hang track=0.avc3
 broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
   source: "session",
   streamErrorCode: null,

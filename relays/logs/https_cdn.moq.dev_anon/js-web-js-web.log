@@ -1,17 +1,15 @@
 [page] negotiated protocol: moq-lite-06
 [page] announced: prefix=
 [page] announce: prefix=
-[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/camera.hang active=true
-[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/screen.hang active=true
-[page] announced: broadcast=smoke-js-web-4042-8995.hang active=true
-[page] subscribe start: id=0 broadcast=smoke-js-web-4042-8995.hang track=catalog.json
 [page] announced: broadcast=sp-blume-town-test active=true
-[page] announced: broadcast=vs-3cd812d76f648e23b7ccb470e54b5b83 active=true
-[page] subscribe ok: id=0 broadcast=smoke-js-web-4042-8995.hang track=catalog.json
-[page] received catalog hang smoke-js-web-4042-8995.hang {video: Object, clock: Object}
-[page] subscribe start: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
-[page] subscribe ok: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
-[page] subscribe update: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
-[page] received catalog hang smoke-js-web-4042-8995.hang {video: Object, clock: Object}
-[page] subscribe update: id=1 broadcast=smoke-js-web-4042-8995.hang track=video
-decoded 4 frames from smoke-js-web-4042-8995.hang (vite)
+[page] announced: broadcast=vs-58ca6cf338a7e612fa9e1972961928fa active=true
+[page] announced: broadcast=smoke-js-web-4218-23907.hang active=true
+[page] subscribe start: id=0 broadcast=smoke-js-web-4218-23907.hang track=catalog.json
+[page] subscribe ok: id=0 broadcast=smoke-js-web-4218-23907.hang track=catalog.json
+[page] received catalog hang smoke-js-web-4218-23907.hang {video: Object, clock: Object}
+[page] subscribe start: id=1 broadcast=smoke-js-web-4218-23907.hang track=video
+[page] subscribe ok: id=1 broadcast=smoke-js-web-4218-23907.hang track=video
+[page] subscribe update: id=1 broadcast=smoke-js-web-4218-23907.hang track=video
+[page] received catalog hang smoke-js-web-4218-23907.hang {video: Object, clock: Object}
+[page] subscribe update: id=1 broadcast=smoke-js-web-4218-23907.hang track=video
+decoded 6 frames from smoke-js-web-4218-23907.hang (vite)

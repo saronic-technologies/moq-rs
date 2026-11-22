@@ -1,15 +1,12 @@
 [page] negotiated protocol: moq-lite-06
 [page] announced: prefix=
 [page] announce: prefix=
-[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/camera.hang active=true
-[page] announced: broadcast=sightline/fable-amber-76/yoyo-4e73/screen.hang active=true
-[page] announced: broadcast=smoke-rust-4042-28531.hang active=true
-[page] subscribe start: id=0 broadcast=smoke-rust-4042-28531.hang track=catalog.json
+[page] announced: broadcast=smoke-rust-4218-6572.hang active=true
+[page] subscribe start: id=0 broadcast=smoke-rust-4218-6572.hang track=catalog.json
 [page] announced: broadcast=sp-blume-town-test active=true
-[page] announced: broadcast=vs-3cd812d76f648e23b7ccb470e54b5b83 active=true
-[page] subscribe ok: id=0 broadcast=smoke-rust-4042-28531.hang track=catalog.json
-[page] received catalog hang smoke-rust-4042-28531.hang {video: Object, audio: Object, archive: Object, clock: Object}
-[page] subscribe start: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
-[page] subscribe ok: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
-[page] subscribe update: id=1 broadcast=smoke-rust-4042-28531.hang track=0.avc3
-decoded 23 frames from smoke-rust-4042-28531.hang (vite)
+[page] announced: broadcast=vs-58ca6cf338a7e612fa9e1972961928fa active=true
+[page] subscribe ok: id=0 broadcast=smoke-rust-4218-6572.hang track=catalog.json
+[page] received catalog hang smoke-rust-4218-6572.hang {video: Object, audio: Object, archive: Object, clock: Object}
+[page] subscribe start: id=1 broadcast=smoke-rust-4218-6572.hang track=0.avc3
+[page] subscribe ok: id=1 broadcast=smoke-rust-4218-6572.hang track=0.avc3
+decoded 20 frames from smoke-rust-4218-6572.hang (vite)

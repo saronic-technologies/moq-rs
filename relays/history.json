@@ -1,7 +1,7 @@
 [
   {
-    "generated": "2026-11-22T08:12:37Z",
-    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45001073306",
+    "generated": "2026-11-23T08:13:47Z",
+    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45135874850",
     "endpoints": {
       "moqt://aiomoqt-relay.marzresearch.net:4443": {
         "ok": true,
@@ -28,11 +28,11 @@
         "total": 6
       },
       "moqt://lminiero.it:9000": {
-        "ok": false,
+        "ok": true,
         "versions": [
           "moq-transport-22"
         ],
-        "passed": 0,
+        "passed": 1,
         "total": 1
       },
       "https://us-west-2.relay.quicr.org:33437/relay": {

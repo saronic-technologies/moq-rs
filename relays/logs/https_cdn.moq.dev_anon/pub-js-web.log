@@ -1,24 +1,18 @@
-publishing smoke-js-web-4244-27390.hang (fake camera, vite) to https://cdn.moq.dev/anon
+publishing smoke-js-web-4246-24466.hang (fake camera, vite) to https://cdn.moq.dev/anon
 [page] negotiated protocol: moq-lite-06
 [page] announced: prefix=
 [page] announce: prefix=
 [page] announced: broadcast=sp-blume-town-test active=true
-[page] announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/b1f2da44-d315-4175-82b7-5a264b26ef37/1-2cc7649a-ae26-4940-8ad4-69502c8190c3.duplex.hang active=true
-[page] announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/2-e2858a2e-5ba0-4b71-b922-f55c0684dfc7.duplex.hang active=true
-[page] announce: broadcast=smoke-js-web-4244-27390.hang active=true
-[page] track info: broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-[page] track info: broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-[page] publish ok: broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-[page] track info: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang active=true
-[page] track info: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] publish ok: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] subscribe update: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] subscribe update: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] subscribe update: broadcast=smoke-js-web-4244-27390.hang track=video
-[page] publish error: broadcast=smoke-js-web-4244-27390.hang track=video error=remote error: 1
+[page] announce: broadcast=smoke-js-web-4246-24466.hang active=true
+[page] track info: broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+[page] track info: broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+[page] publish ok: broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+[page] track info: broadcast=smoke-js-web-4246-24466.hang track=video
+[page] track info: broadcast=smoke-js-web-4246-24466.hang track=video
+[page] publish ok: broadcast=smoke-js-web-4246-24466.hang track=video
+[page] subscribe update: broadcast=smoke-js-web-4246-24466.hang track=video
+[page] subscribe update: broadcast=smoke-js-web-4246-24466.hang track=video
+[page] publish error: broadcast=smoke-js-web-4246-24466.hang track=video error=remote error: 1
 [page] datagram send stopped: sub=1 error=remote error: 1
-[page] publish error: broadcast=smoke-js-web-4244-27390.hang track=catalog.json error=The stream was aborted by the remote server
+[page] publish error: broadcast=smoke-js-web-4246-24466.hang track=catalog.json error=The stream was aborted by the remote server
 [page] datagram send stopped: sub=0 error=The stream was aborted by the remote server
-[page] announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang rerouted
-[page] announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang active=false

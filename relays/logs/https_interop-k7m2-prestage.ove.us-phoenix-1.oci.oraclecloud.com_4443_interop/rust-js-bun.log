@@ -1,9 +1,14 @@
-https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/ connected via WebTransport
-https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/ negotiated ALPN: moqt-22
+https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/interop connected via WebTransport
+https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/interop negotiated ALPN: moqt-22
 connected version=moq-transport-22
 subscribe_namespace written: requestId=0
-error: timed out waiting for data
+announced: broadcast=smoke-rust-4246-30489.hang active=true
+subscribe start: id=2 broadcast=smoke-rust-4246-30489.hang track=catalog.json
+subscribe written: id=2 broadcast=smoke-rust-4246-30489.hang track=catalog.json
+subscribe error: id=2 broadcast=smoke-rust-4246-30489.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) 
+error: SUBSCRIBE error: not_supported (code=3) 
 subscribe_namespace error: connection error: closed (source=session)
+announced: broadcast=smoke-rust-4246-30489.hang active=false
 broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
   source: "session",
   streamErrorCode: null,
@@ -37,5 +42,3 @@ broadcast discovery failed; broadcasts resolve on request only. WebTransportErro
   DATA_CLONE_ERR: 25,
   toString: [Function: toString],
 }
-subscribe start: id=2 broadcast=smoke-js-web-4244-25594.hang track=catalog.json
-subscribe error: id=2 broadcast=smoke-js-web-4244-25594.hang track=catalog.json error=subscribe abandoned before it was accepted

@@ -1,7 +1,7 @@
 [
   {
-    "generated": "2026-11-23T08:13:47Z",
-    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45135874850",
+    "generated": "2026-11-24T08:13:22Z",
+    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45352986192",
     "endpoints": {
       "moqt://aiomoqt-relay.marzresearch.net:4443": {
         "ok": true,
@@ -20,19 +20,19 @@
         "total": 6
       },
       "https://lminiero.it:9000": {
-        "ok": true,
+        "ok": false,
         "versions": [
           "moq-transport-22"
         ],
-        "passed": 6,
+        "passed": 3,
         "total": 6
       },
       "moqt://lminiero.it:9000": {
-        "ok": true,
+        "ok": false,
         "versions": [
           "moq-transport-22"
         ],
-        "passed": 1,
+        "passed": 0,
         "total": 1
       },
       "https://us-west-2.relay.quicr.org:33437/relay": {
@@ -239,7 +239,7 @@
         "passed": 1,
         "total": 1
       },
-      "moqt://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443": {
+      "moqt://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/interop": {
         "ok": false,
         "versions": [
           "moq-transport-22"
@@ -247,7 +247,7 @@
         "passed": 0,
         "total": 1
       },
-      "https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443": {
+      "https://interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com:4443/interop": {
         "ok": false,
         "versions": [
           "moq-transport-22"

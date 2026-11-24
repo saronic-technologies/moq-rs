@@ -3,20 +3,15 @@ https://cdn.moq.dev/anon negotiated ALPN: moq-lite-06
 announced: prefix=
 connected version=moq-lite-06
 announced: broadcast=sp-blume-town-test active=true
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/b1f2da44-d315-4175-82b7-5a264b26ef37/1-2cc7649a-ae26-4940-8ad4-69502c8190c3.duplex.hang active=true
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang active=true
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/2-e2858a2e-5ba0-4b71-b922-f55c0684dfc7.duplex.hang active=true
 announce: prefix=
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang rerouted
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang active=false
-announced: broadcast=smoke-js-web-4244-27390.hang active=true
-subscribe start: id=0 broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-subscribe ok: id=0 broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-subscribe start: id=1 broadcast=smoke-js-web-4244-27390.hang track=video
-subscribe ok: id=1 broadcast=smoke-js-web-4244-27390.hang track=video
-received 6755 bytes from smoke-js-web-4244-27390.hang
-subscribe close: id=0 broadcast=smoke-js-web-4244-27390.hang track=catalog.json
-subscribe close: id=1 broadcast=smoke-js-web-4244-27390.hang track=video
+announced: broadcast=smoke-js-web-4246-24466.hang active=true
+subscribe start: id=0 broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+subscribe ok: id=0 broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+subscribe start: id=1 broadcast=smoke-js-web-4246-24466.hang track=video
+subscribe ok: id=1 broadcast=smoke-js-web-4246-24466.hang track=video
+received 6916 bytes from smoke-js-web-4246-24466.hang
+subscribe close: id=0 broadcast=smoke-js-web-4246-24466.hang track=catalog.json
+subscribe close: id=1 broadcast=smoke-js-web-4246-24466.hang track=video
 broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
   source: "session",
   streamErrorCode: null,

@@ -2,18 +2,16 @@ https://cdn.moq.dev/anon connected via WebTransport
 https://cdn.moq.dev/anon negotiated ALPN: moq-lite-06
 announced: prefix=
 connected version=moq-lite-06
-announced: broadcast=smoke-rust-4244-3970.hang active=true
-subscribe start: id=0 broadcast=smoke-rust-4244-3970.hang track=catalog.json
+announced: broadcast=smoke-rust-4246-32078.hang active=true
+subscribe start: id=0 broadcast=smoke-rust-4246-32078.hang track=catalog.json
 announced: broadcast=sp-blume-town-test active=true
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/b1f2da44-d315-4175-82b7-5a264b26ef37/1-2cc7649a-ae26-4940-8ad4-69502c8190c3.duplex.hang active=true
-announced: broadcast=teletape-test/aea8c6d4-6c6b-4d9f-88ac-ace8f4329627/c80764ec-99db-46b4-b139-088129bda8f5/1-9f46b174-120d-4a0a-a1cd-8cc24df3d73e.duplex.hang active=true
 announce: prefix=
-subscribe ok: id=0 broadcast=smoke-rust-4244-3970.hang track=catalog.json
-subscribe start: id=1 broadcast=smoke-rust-4244-3970.hang track=0.avc3
-subscribe ok: id=1 broadcast=smoke-rust-4244-3970.hang track=0.avc3
-received 6709 bytes from smoke-rust-4244-3970.hang
-subscribe close: id=0 broadcast=smoke-rust-4244-3970.hang track=catalog.json
-subscribe close: id=1 broadcast=smoke-rust-4244-3970.hang track=0.avc3
+subscribe ok: id=0 broadcast=smoke-rust-4246-32078.hang track=catalog.json
+subscribe start: id=1 broadcast=smoke-rust-4246-32078.hang track=0.avc3
+subscribe ok: id=1 broadcast=smoke-rust-4246-32078.hang track=0.avc3
+received 6709 bytes from smoke-rust-4246-32078.hang
+subscribe close: id=0 broadcast=smoke-rust-4246-32078.hang track=catalog.json
+subscribe close: id=1 broadcast=smoke-rust-4246-32078.hang track=0.avc3
 broadcast discovery failed; broadcasts resolve on request only. WebTransportError {
   source: "session",
   streamErrorCode: null,

@@ -1,21 +1,21 @@
-[2m2026-11-24T08:09:28.003958Z[0m [32m INFO[0m [2mmoq_relay::cluster[0m[2m:[0m cluster initialized [3mhop_id[0m[2m=[0m1663730143562605 [3mconfigured[0m[2m=[0mfalse
-[2m2026-11-24T08:09:28.009084Z[0m [33m WARN[0m [2mmoq_sock::bind[0m[2m:[0m UDP receive buffer is smaller than requested; raise `net.core.rmem_max` or expect packet loss under load [3mwanted[0m[2m=[0m8388608 [3mgranted[0m[2m=[0m1048576
-[2m2026-11-24T08:09:28.009127Z[0m [33m WARN[0m [2mmoq_sock::bind[0m[2m:[0m UDP send buffer is smaller than requested; raise `net.core.wmem_max` or expect packet loss under load [3mwanted[0m[2m=[0m8388608 [3mgranted[0m[2m=[0m4194304
-[2m2026-11-24T08:09:28.014204Z[0m [32m INFO[0m [2mmoq_tokio::connection[0m[2m:[0m connecting [3mpeer[0m[2m=[0mhttps://moqt.nokiaresearch.com:8443
-[2m2026-11-24T08:09:28.014478Z[0m [32m INFO[0m [2mmoq_relay::cluster[0m[2m:[0m no cluster peers configured; running standalone
-[2m2026-11-24T08:09:28.448254Z[0m [33m WARN[0m [2mmoq_tokio::client[0m[2m:[0m QUIC connection failed [3merr[0m[2m=[0mfailed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)
-[2m2026-11-24T08:09:28.448297Z[0m [31mERROR[0m [2mmoq_tokio::connection[0m[2m:[0m connection loop exited [3merr[0m[2m=[0mfailed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)
-[2m2026-11-24T08:09:28.448572Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0m0.avc3
-[2m2026-11-24T08:09:28.448590Z[0m [33m WARN[0m [2mmoq_net::model::group[0m[2m:[0m group::Producer dropped without finish() or abort() [3msequence[0m[2m=[0m0
-[2m2026-11-24T08:09:28.450485Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog.json
-[2m2026-11-24T08:09:28.450500Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog.json.z
-[2m2026-11-24T08:09:28.450554Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog
-[2m2026-11-24T08:09:28.450574Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mtimeline.z
+[2m2026-11-25T08:08:41.604916Z[0m [32m INFO[0m [2mmoq_relay::cluster[0m[2m:[0m cluster initialized [3mhop_id[0m[2m=[0m5418179431821055 [3mconfigured[0m[2m=[0mfalse
+[2m2026-11-25T08:08:41.611764Z[0m [33m WARN[0m [2mmoq_sock::bind[0m[2m:[0m UDP receive buffer is smaller than requested; raise `net.core.rmem_max` or expect packet loss under load [3mwanted[0m[2m=[0m8388608 [3mgranted[0m[2m=[0m1048576
+[2m2026-11-25T08:08:41.611785Z[0m [33m WARN[0m [2mmoq_sock::bind[0m[2m:[0m UDP send buffer is smaller than requested; raise `net.core.wmem_max` or expect packet loss under load [3mwanted[0m[2m=[0m8388608 [3mgranted[0m[2m=[0m4194304
+[2m2026-11-25T08:08:41.617110Z[0m [32m INFO[0m [2mmoq_relay::cluster[0m[2m:[0m no cluster peers configured; running standalone
+[2m2026-11-25T08:08:41.617120Z[0m [32m INFO[0m [2mmoq_tokio::connection[0m[2m:[0m connecting [3mpeer[0m[2m=[0mhttps://moqt.nokiaresearch.com:8443
+[2m2026-11-25T08:08:42.096356Z[0m [33m WARN[0m [2mmoq_tokio::client[0m[2m:[0m QUIC connection failed [3merr[0m[2m=[0mfailed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)
+[2m2026-11-25T08:08:42.096399Z[0m [31mERROR[0m [2mmoq_tokio::connection[0m[2m:[0m connection loop exited [3merr[0m[2m=[0mfailed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)
+[2m2026-11-25T08:08:42.096899Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0m0.avc3
+[2m2026-11-25T08:08:42.096920Z[0m [33m WARN[0m [2mmoq_net::model::group[0m[2m:[0m group::Producer dropped without finish() or abort() [3msequence[0m[2m=[0m0
+[2m2026-11-25T08:08:42.097260Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog.json
+[2m2026-11-25T08:08:42.097270Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog.json.z
+[2m2026-11-25T08:08:42.097304Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mcatalog
+[2m2026-11-25T08:08:42.097318Z[0m [33m WARN[0m [2mmoq_net::model::track[0m[2m:[0m track::Producer dropped without finish() or abort() [3mtrack[0m[2m=[0mtimeline.z
 Error: failed to exchange h3 connect: protocol error: expected 200, got: Some(500): protocol error: expected 200, got: Some(500): expected 200, got: Some(500)
-[vost#0:0/libx264 @ 0x624c7f1d3580] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/libx264 @ 0x5c363cc49580] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/h264 @ 0x624c7f1d3180] Error muxing a packet
-[out#0/h264 @ 0x624c7f1d3180] Task finished with error code: -32 (Broken pipe)
-[out#0/h264 @ 0x624c7f1d3180] Terminating thread with return code -32 (Broken pipe)
-[out#0/h264 @ 0x624c7f1d3180] Error writing trailer: Broken pipe
-[out#0/h264 @ 0x624c7f1d3180] Error closing file: Broken pipe
+[out#0/h264 @ 0x5c363cc49180] Error muxing a packet
+[out#0/h264 @ 0x5c363cc49180] Task finished with error code: -32 (Broken pipe)
+[out#0/h264 @ 0x5c363cc49180] Terminating thread with return code -32 (Broken pipe)
+[out#0/h264 @ 0x5c363cc49180] Error writing trailer: Broken pipe
+[out#0/h264 @ 0x5c363cc49180] Error closing file: Broken pipe

@@ -1,7 +1,7 @@
 [
   {
-    "generated": "2026-11-25T08:12:36Z",
-    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45573136186",
+    "generated": "2026-11-26T08:12:12Z",
+    "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45780102866",
     "endpoints": {
       "moqt://aiomoqt-relay.marzresearch.net:4443": {
         "ok": true,

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T08:12:36Z",
-  "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45573136186",
+  "generated": "2026-11-26T08:12:12Z",
+  "run_url": "https://github.com/saronic-technologies/moq-rs/actions/runs/45780102866",
   "registry": "https://raw.githubusercontent.com/englishm/moq-interop-runner/main/implementations.json",
   "pairs": [
     "rust → rust",
@@ -1281,7 +1281,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-rust-4231-22666.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
+          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-rust-4050-21177.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
           "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/rust-js-web.log",
           "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/pub-rust.log"
         },
@@ -1289,7 +1289,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-rust-4231-22666.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
+          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-rust-4050-21177.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
           "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/rust-js-bun.log",
           "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/pub-rust.log"
         },
@@ -1305,7 +1305,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-js-web-4231-7969.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
+          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-js-web-4050-29133.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
           "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/js-web-js-web.log",
           "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/pub-js-web.log"
         },
@@ -1313,7 +1313,7 @@
           "status": "FAIL",
           "pub_version": "moq-transport-22",
           "sub_version": "moq-transport-22",
-          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-js-web-4231-7969.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
+          "reason": "no SUBSCRIBE_OK for catalog.json: subscribe error: id=2 broadcast=smoke-js-web-4050-29133.hang track=catalog.json error=SUBSCRIBE error: not_supported (code=3) ",
           "sub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/js-web-js-bun.log",
           "pub_log": "https_interop-k7m2-prestage.ove.us-phoenix-1.oci.oraclecloud.com_4443_interop/pub-js-web.log"
         }
